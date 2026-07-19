@@ -1,25 +1,28 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
+# ClipForge AI
 
-# Environment
-.env
+Open Source AI Video Clipping Platform.
 
-# VS Code
-.vscode/
+## Features
 
-# Logs
-*.log
+- Video Upload
+- AI Transcription
+- AI Clip Detection
+- Subtitle Generator
+- FFmpeg Rendering
+- Railway Deployment
 
-# Storage
-backend/storage/
+## Tech Stack
 
-# Node
-node_modules/
-.next/
+- FastAPI
+- Next.js
+- PostgreSQL
+- Redis
+- Celery
+- Faster-Whisper
+- FFmpeg
 
-# macOS
-.DS_Store
+## Run
+
+```bash
+docker compose up --build
+```
