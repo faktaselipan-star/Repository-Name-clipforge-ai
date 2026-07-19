@@ -1,28 +1,15 @@
 # ClipForge AI
 
-Open Source AI Video Clipping Platform.
+ClipForge AI adalah aplikasi open-source untuk mengubah video panjang menjadi video pendek secara otomatis menggunakan AI.
 
-## Features
-
-- Video Upload
-- AI Transcription
-- AI Clip Detection
-- Subtitle Generator
-- FFmpeg Rendering
-- Railway Deployment
-
-## Tech Stack
+## Teknologi
 
 - FastAPI
-- Next.js
-- PostgreSQL
-- Redis
-- Celery
 - Faster-Whisper
 - FFmpeg
+- Railway
+- GitHub
 
-## Run
+## Versi
 
-```bash
-docker compose up --build
-```
+0.1.0
