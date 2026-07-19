@@ -1,1 +1,25 @@
-# Repository-Name-clipforge-ai
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Storage
+backend/storage/
+
+# Node
+node_modules/
+.next/
+
+# macOS
+.DS_Store
